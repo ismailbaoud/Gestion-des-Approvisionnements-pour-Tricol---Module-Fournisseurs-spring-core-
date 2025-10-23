@@ -1,13 +1,5 @@
 package org.ismail.Tricol;
 
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
-public class ServletInitializer extends SpringBootServletInitializer {
-
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(TricolApplication.class);
-	}
-
+public class ServletInitializer {
+    // No-op placeholder: using web.xml + /WEB-INF/applicationContext.xml for Spring Core configuration.
 }
