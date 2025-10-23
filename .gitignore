@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+jetty.log
+jetty9090.log
